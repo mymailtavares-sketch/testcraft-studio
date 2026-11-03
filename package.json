@@ -7,14 +7,15 @@
     "dev": "node --import tsx scripts/dev.mjs",
     "dev:ui": "vite",
     "server": "tsx server/index.ts",
-    "build": "vite build",
+    "build": "vite build && tsc --project tsconfig.build.json",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit && tsc --noEmit --project tsconfig.server.json",
     "test:unit": "tsc --project tsconfig.server.json --noEmit false --outDir .test-build && node --test .test-build/tests/*.test.js",
     "test:e2e": "node --import tsx scripts/test-e2e.mjs",
     "test:e2e:install": "playwright install chromium",
     "test:e2e:typecheck": "tsc --noEmit -p tsconfig.e2e.json",
-    "verify": "npm run typecheck && npm run test:unit && npm run build && npm run test:e2e"
+    "verify": "npm run typecheck && npm run test:unit && npm run build && npm run test:e2e",
+    "start": "node .server-build/index.js"
   },
   "keywords": [],
   "author": "",
@@ -35,5 +36,8 @@
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   },
-  "private": true
+  "private": true,
+  "engines": {
+    "node": "22.x"
+  }
 }

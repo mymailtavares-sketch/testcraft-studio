@@ -17,3 +17,5 @@ server/data/
 unit-result.txt
 .DS_Store
 Thumbs.db
+
+.server-build/

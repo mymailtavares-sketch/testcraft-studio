@@ -81,3 +81,15 @@ git push -u origin main
 O .gitignore exclui dependências, builds, relatórios, variáveis locais e dados de execução. O logótipo SVG e o spinner desta versão são neutros. Não foram incluídos imagens nem logótipos de organizações.
 
 Esta cópia não traz uma licença de distribuição automática. A anonimização protege referências e ligações; a autorização para publicar o código deve ser confirmada por quem o publica.
+
+## Alojamento no Render
+
+Criar um Web Service ligado a este repositório, branch main, pasta raiz vazia.
+
+- Build Command: `npm ci --include=dev && npm run build`
+- Start Command: `npm start`
+- Environment variable: `NODE_ENV=production`
+- Health check: `/api/health`
+- Instance type: Free, se disponível na conta.
+
+Em produção o servidor usa a PORT atribuída pela plataforma, escuta em 0.0.0.0 e serve interface compilada e API demo na mesma origem. O modo de demonstração mantém-se: não são ativadas integrações externas. Dados da API continuam em memória e são reiniciados a cada arranque.

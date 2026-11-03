@@ -5,7 +5,7 @@
   },
   {
     "path": ".gitignore",
-    "sha256": "b923bb1ee5f5e3efbc0876e776d94a118d2ac3324c32aaf3d47ed77b3d4c5dd0"
+    "sha256": "24b923b3c35b11a2c435a43efe55bd5728932a6babd0a912565c3c9f60ae97a7"
   },
   {
     "path": "docs/screenshots/dashboard.png",
@@ -21,11 +21,11 @@
   },
   {
     "path": "package-lock.json",
-    "sha256": "76fa221272e77ec5f271dd18d8d24342ae7aaab9e6ad966b2212bfd64f3fa0a7"
+    "sha256": "ed3882b138ad89f3b3eca2dd112cf38b64dcac6cfbc5841cbca17bf129dbe095"
   },
   {
     "path": "package.json",
-    "sha256": "341936e32f5fbac18f53e23e2e3e82850f3e37c7fed4c3713cd0042afe6d8afe"
+    "sha256": "447afebda3ed7410a08e76811a1bf358ec169c2f12d77d43b1843789b302b360"
   },
   {
     "path": "playwright.config.ts",
@@ -37,7 +37,7 @@
   },
   {
     "path": "README.md",
-    "sha256": "fa664718e29629a316858cedd2dffadba2e7d1bb85c9ca57053f4461aa69305b"
+    "sha256": "63ca73d461619bc3add191ab0d75000b2bfdd3e3ec15228bba26f5548bedf09f"
   },
   {
     "path": "scripts/dev.mjs",
@@ -52,8 +52,12 @@
     "sha256": "fa93b38a7958c03a81ae2fd2304180afd87d807e2d2c34497372846f70eee55d"
   },
   {
+    "path": "server/hosting.ts",
+    "sha256": "b7ce14d82d61fae3398d9c581daa2856d8ae92993706219cebb154948b77825c"
+  },
+  {
     "path": "server/index.ts",
-    "sha256": "6cc3aaf0f2002ebba1f393e7c2264c519e84365643b462b1edecc69bdcf90d2a"
+    "sha256": "f98ddc920b0e1ed68f392c3fa7d34b90c3f9563b0b55445fa3484ba2cd01451f"
   },
   {
     "path": "src/App.css",
@@ -236,12 +240,20 @@
     "sha256": "deefe7dfc1420c135db7b18485e55e8e6dfb263a8a51f6d6a94466416ac53099"
   },
   {
+    "path": "tests/hosting.test.ts",
+    "sha256": "f182861c16ee1709667fd8a6cc3bc896858145242bb776db14a8922b22185086"
+  },
+  {
     "path": "tests/manual-test-case.test.ts",
     "sha256": "4b702126d89ce441551f2d36588fa8e0424106e879c6643a40ec29b0b450dad0"
   },
   {
     "path": "tests/publication-progress.test.ts",
     "sha256": "6f3bbe3692a3374324fbd4ca5717ece97927f16520ecbb36ae76243740935c98"
+  },
+  {
+    "path": "tsconfig.build.json",
+    "sha256": "7268453528a97c8b1e84e581fe5d76a6aea4736ddde17dcbcd5cc68af0f1227b"
   },
   {
     "path": "tsconfig.e2e.json",
@@ -257,7 +269,7 @@
   },
   {
     "path": "VALIDACAO.md",
-    "sha256": "6a509610b36161412f3ff4dc85dc70180409eedc297b8de58bb8468bd12051c2"
+    "sha256": "b17c36a1519b1c02c8a27e73d30f2af42256f285786452fce617d29880e2066a"
   },
   {
     "path": "vite.config.ts",
